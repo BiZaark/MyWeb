@@ -1,0 +1,42 @@
+html, body {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.topnav {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  color: gray;
+}
+
+
+canvas {
+
+}
+
+footer {
+  order: 1;
+  font-style: italic;
+  font-size: 90%;
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  
+}
